@@ -3,189 +3,148 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rivaldy Putra Rivly — Portfolio</title>
-  <meta name="description" content="Portfolio of Rivaldy Putra Rivly, Information Systems student at Universitas Indonesia." />
+  <title>Rivaldy Putra Rivly — About Me</title>
+  <meta name="description" content="Personal website of Rivaldy Putra Rivly — Information Systems student, aspiring data scientist, and builder." />
+  <link rel="icon" href="assets/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link rel="canonical" href="https://rivdy.github.io/" />
-  <meta property="og:title" content="Rivaldy Putra Rivly — Portfolio" />
-  <meta property="og:description" content="Information Systems @ Universitas Indonesia. Projects in AI for learning, web, and PM." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://rivdy.github.io/" />
-  <meta property="og:image" content="https://rivdy.github.io/assets/preview.png" />
-  <meta name="twitter:card" content="summary_large_image" />
 </head>
 <body>
-  <!-- Decorative background -->
-  <div class="bg">
-    <div class="blob a"></div>
-    <div class="blob b"></div>
-  </div>
-
-  <header class="wrap header">
-    <a class="brand" href="#"><span class="dot"></span>Rivaldy</a>
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-      <button id="theme" aria-label="Toggle theme">☾</button>
-    </nav>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="logo">R</span>
+        <span class="brand-text">Rivaldy</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-<!-- ===== Alive Split Hero ===== -->
-<section class="alive-hero">
-  <!-- left: text + search -->
-  <div class="alive-left wrap">
-    <p class="alive-kicker">Berlin Tauentstrasse</p>
-    <h1 class="alive-title">Welcome Home</h1>
-
-    <!-- search bar -->
-    <form class="alive-search" action="#" aria-label="Find a suite">
-      <label class="alive-field">
-        <span class="alive-label">Location</span>
-        <select aria-label="Location">
-          <option selected>Jakarta</option>
-          <option>Depok</option>
-          <option>Bandung</option>
-          <option>Singapore</option>
-        </select>
-      </label>
-
-      <label class="alive-field">
-        <span class="alive-label">Check In</span>
-        <input type="date" aria-label="Check in">
-      </label>
-
-      <label class="alive-field">
-        <span class="alive-label">Check Out</span>
-        <input type="date" aria-label="Check out">
-      </label>
-
-      <label class="alive-field">
-        <span class="alive-label">Guests</span>
-        <select aria-label="Guests">
-          <option selected>1 guest</option>
-          <option>2 guests</option>
-          <option>3 guests</option>
-          <option>4 guests</option>
-        </select>
-      </label>
-
-      <button class="alive-cta" type="submit">Search Suite</button>
-    </form>
-
-    <p class="alive-sub">
-      Introducing an entirely new way to stay in your favorite neighborhoods around the world.
-    </p>
-
-    <button class="alive-play" type="button" aria-label="Play showreel">
-      <span class="alive-play-icon">▶</span> Play showreel
-    </button>
-  </div>
-
-  <!-- right: image panel -->
-  <div class="alive-right" role="img" aria-label="Bright minimal living room"></div>
-
-  <!-- subtle animated dots -->
-  <div class="alive-dots"></div>
-</section>
-
-    <!-- ABOUT -->
-    <section id="about" class="wrap two">
-      <div>
-        <h2>About</h2>
-        <p><strong>Universitas Indonesia</strong> — B.Sc. in Information Systems (Aug 2024 – Present).</p>
-        <p><em>Relevant coursework:</em> Intro to IS, Basic Programming, Linear Algebra, Discrete Math, Digital Systems.</p>
-        <p><em>Scholarship:</em> BSI Unggulan Scholarship (2024, First Batch Awardee).</p>
-        <ul class="bullets">
-          <li>Languages: Bahasa Indonesia (Native), English (C1), German (A1)</li>
-          <li>Programming: Python</li>
-          <li>Design tools: Corel, Figma, Adobe Lightroom</li>
-        </ul>
+  <!-- Hero -->
+  <section id="top" class="hero container">
+    <div class="hero-left">
+      <p class="kicker">Hello, I'm</p>
+      <h1 class="name"><span>Rivaldy</span> Putra Rivly</h1>
+      <p class="tagline">Information Systems @ Universitas Indonesia • Interested in Data Science, AI for Education, and Web.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#about">About me</a>
+        <a class="btn ghost" href="#projects">See projects</a>
       </div>
-      <div class="card">
-        <h3>Skills</h3>
-        <div class="chips">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-          <span>Python</span><span>Git</span><span>Figma</span>
+    </div>
+    <div class="hero-right">
+      <!-- Replace assets/me.jpg with your portrait (square image recommended) -->
+      <div class="portrait" role="img" aria-label="Portrait photo of Rivaldy"></div>
+      <div class="hero-card">
+        <div>
+          <strong>Current focus</strong>
+          <p>Learning Python & web, building small tools, and documenting my journey.</p>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="bg-dots"></div>
+  </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="wrap">
+  <!-- About -->
+  <section id="about" class="section container">
+    <div class="section-head">
+      <h2>About Me</h2>
+      <p class="muted">A short, simple introduction.</p>
+    </div>
+    <div class="two-col">
+      <div>
+        <p>
+          I’m an Information Systems student who loves solving problems with code and clear design.
+          I enjoy learning by building: small websites, data notebooks, and tools that help people study better.
+        </p>
+        <p>
+          Outside of class, I join competitions and open-source activities. My long-term goal is to work
+          in data science for education in Indonesia.
+        </p>
+      </div>
+      <aside class="fact-card">
+        <ul>
+          <li><span>Location</span> East Jakarta, Indonesia</li>
+          <li><span>Focus</span> Data science, AI in education</li>
+          <li><span>Scholarship</span> BSI Scholarship Awardee</li>
+          <li><span>Email</span> <a href="mailto:rivaldy.rivly@gmail.com">rivaldy.rivly@gmail.com</a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section container">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p class="muted">What I work with right now.</p>
+    </div>
+    <div class="chips">
+      <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+      <span>Git</span><span>Figma</span><span>Corel</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section container">
+    <div class="section-head">
       <h2>Projects</h2>
-      <div class="grid">
-        <article class="tile">
-          <h3>Keyword RGB — AI Learning Companion</h3>
-          <p>
-            Co-built Indonesia’s first AI learning companion using a Keyword 5W+1H algorithm (JS/Python), 
-            integrated with Google APIs and ChatGPT 3.5; UX-tested with 1,000+ students. 
-            2nd place in Samsung Solve for Tomorrow (309 teams).
-          </p>
-          <div class="tags"><span>JavaScript</span><span>Python</span><span>Google API</span></div>
-          <div class="actions">
-            <a class="btn small" href="#" aria-disabled="true">Live</a>
-            <a class="btn small ghost" href="#" aria-disabled="true">Code</a>
-          </div>
-        </article>
-        <article class="tile">
-          <h3>Code in Place — Stanford</h3>
-          <p>
-            Built Python programs using loops, functions, and data structures to solve small data tasks; 
-            collaborated remotely with peers and mentors; iterated via feedback.
-          </p>
-          <div class="tags"><span>Python</span></div>
-          <div class="actions">
-            <a class="btn small" href="#" aria-disabled="true">Demo</a>
-            <a class="btn small ghost" href="#" aria-disabled="true">Code</a>
-          </div>
-        </article>
-      </div>
-    </section>
+      <p class="muted">A few things I’ve been working on.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <h3>Keyword RGB — AI Learning Companion</h3>
+        <p>Built an AI-based tool for students using a Keyword 5W+1H approach. Combined JS/Python with Google APIs to help summarize and study.</p>
+        <div class="tags"><span>JavaScript</span><span>Python</span><span>Google API</span></div>
+        <div class="actions">
+          <a class="btn small" href="#" aria-disabled="true">Live</a>
+          <a class="btn small ghost" href="#" aria-disabled="true">Code</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>Data mini-labs</h3>
+        <p>Short notebooks exploring datasets (cleaning, charts, simple models) to practice Python and storytelling with data.</p>
+        <div class="tags"><span>Python</span><span>Pandas</span></div>
+        <div class="actions">
+          <a class="btn small" href="#" aria-disabled="true">View</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>Personal website</h3>
+        <p>This website. Designed with a clean red theme, smooth motion, and focus on clarity.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span></div>
+        <div class="actions">
+          <a class="btn small" href="#top">Top</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-    <!-- EXPERIENCE / LEADERSHIP -->
-    <section id="experience" class="wrap">
-      <h2>Experience & Leadership</h2>
-      <div class="grid">
-        <article class="tile">
-          <h3>Project Manager Trainee — BEM Fasilkom UI</h3>
-          <p>Sep 2024 – Present, Depok, Indonesia.</p>
-          <p>Overseeing digital projects: managing goals, timelines, scope; coordinating teams; tracking progress.</p>
-        </article>
-        <article class="tile">
-          <h3>International Leadership in Action Summit (ILiAS)</h3>
-          <p>May – Sep 2024, Singapore & Malaysia.</p>
-          <p>Worked with youth leaders on SDG-aligned social startups (education, health, environment, economy);
-             workshops & field visits at IIUM and NUS.</p>
-        </article>
-        <article class="tile">
-          <h3>Head of STEM Division — SMAN 8 Jakarta</h3>
-          <p>Aug 2022 – Sep 2023, Jakarta.</p>
-          <p>1:1 tutoring for 46 students; mentored 21 research teams to qualify at national level across disciplines.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="wrap">
+  <!-- Contact -->
+  <section id="contact" class="section container">
+    <div class="section-head">
       <h2>Contact</h2>
-      <ul class="contact-list">
-        <li>📍 East Jakarta</li>
-        <li>📧 <a href="mailto:rivaldy.rivly@gmail.com">rivaldy.rivly@gmail.com</a></li>
-        <li>📱 <a href="tel:+6288809671923">+62 888 0967 1923</a></li>
-        <li>🔗 <a href="https://www.linkedin.com/in/rivaldy-r-80ba0b236" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li>🎓 Certificates: Foundations of Project Management (Coursera); Foundations: Data, Data, Everywhere (Coursera)</li>
-      </ul>
-    </section>
-  </main>
+      <p class="muted">The best ways to reach me.</p>
+    </div>
+    <ul class="contact">
+      <li>📧 <a href="mailto:rivaldy.rivly@gmail.com">rivaldy.rivly@gmail.com</a></li>
+      <li>🔗 <a href="https://www.linkedin.com/in/rivaldy-r-80ba0b236" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li>💻 <a href="https://github.com/rivdy" target="_blank" rel="noopener">GitHub</a></li>
+      <li>📱 <a href="tel:+6288809671923">+62 888 0967 1923</a></li>
+    </ul>
+  </section>
 
-  <footer class="wrap foot">
-    <p>© <span id="year"></span> Rivaldy Putra Rivly • Built with ❤️ on GitHub Pages</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Rivaldy Putra Rivly · Made with ❤️</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
