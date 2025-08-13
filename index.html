@@ -3,111 +3,147 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name — Portfolio</title>
-  <meta name="description" content="Personal website & portfolio hosted free on GitHub Pages." />
+  <title>Rivaldy Putra Rivly — Portfolio</title>
+  <meta name="description" content="Portfolio of Rivaldy Putra Rivly, Information Systems student at Universitas Indonesia." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- decorative background -->
+  <!-- Decorative background -->
   <div class="bg">
     <div class="blob a"></div>
     <div class="blob b"></div>
   </div>
 
   <header class="wrap header">
-    <a class="brand" href="#"><span class="dot"></span>YourName</a>
+    <a class="brand" href="#"><span class="dot"></span>Rivaldy</a>
     <nav class="nav">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
       <button id="theme" aria-label="Toggle theme">☾</button>
     </nav>
   </header>
 
   <main>
+    <!-- HERO -->
     <section class="wrap hero">
       <div>
         <p class="eyebrow">Hi! 👋</p>
-        <h1>I build <span class="accent">delightful websites</span>.</h1>
-        <p class="lead">I’m <strong>Your Name</strong>. I love turning ideas into fast, responsive, accessible web experiences.</p>
+        <h1>I build <span class="accent">useful, friendly</span> web things.</h1>
+        <p class="lead">
+          I’m <strong>Rivaldy Putra Rivly</strong>, an Information Systems student at Universitas Indonesia.
+          I love turning ideas into fast, accessible web experiences.
+        </p>
         <div class="cta">
           <a class="btn primary" href="#projects">See projects</a>
           <a class="btn ghost" href="#contact">Contact me</a>
         </div>
+        <ul class="trust">
+          <li>⚡ Fast</li><li>📱 Responsive</li><li>♿ Accessible</li><li>🧩 Reusable</li>
+        </ul>
       </div>
       <div class="card">
         <h3>Currently</h3>
-        <p>Learning JavaScript & UI design. Open to small web projects.</p>
+        <p>Project Manager trainee @ BEM Fasilkom UI (Bismit) — managing timelines, scope, and progress for web & business dev.</p>
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about" class="wrap two">
       <div>
         <h2>About</h2>
-        <p>Write your short bio here. Mention what you do, what you like, and what you’re looking for.</p>
+        <p><strong>Universitas Indonesia</strong> — B.Sc. in Information Systems (Aug 2024 – Present).</p>
+        <p><em>Relevant coursework:</em> Intro to IS, Basic Programming, Linear Algebra, Discrete Math, Digital Systems.</p>
+        <p><em>Scholarship:</em> BSI Unggulan Scholarship (2024, First Batch Awardee).</p>
         <ul class="bullets">
-          <li>🛠 Tools: HTML, CSS, JavaScript</li>
-          <li>🎯 Interests: Frontend, Design, Open Source</li>
-          <li>🌍 Location: Your City</li>
+          <li>Languages: Bahasa Indonesia (Native), English (C1), German (A1)</li>
+          <li>Programming: Python</li>
+          <li>Design tools: Corel, Figma, Adobe Lightroom</li>
         </ul>
       </div>
       <div class="card">
         <h3>Skills</h3>
         <div class="chips">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git</span><span>Figma</span>
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>Python</span><span>Git</span><span>Figma</span>
         </div>
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects" class="wrap">
       <h2>Projects</h2>
       <div class="grid">
         <article class="tile">
-          <h3>Project One</h3>
-          <p>What it does and why it’s cool—in one sentence.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span></div>
+          <h3>Keyword RGB — AI Learning Companion</h3>
+          <p>
+            Co-built Indonesia’s first AI learning companion using a Keyword 5W+1H algorithm (JS/Python), 
+            integrated with Google APIs and ChatGPT 3.5; UX-tested with 1,000+ students. 
+            2nd place in Samsung Solve for Tomorrow (309 teams).
+          </p>
+          <div class="tags"><span>JavaScript</span><span>Python</span><span>Google API</span></div>
           <div class="actions">
-            <a class="btn small" href="#">Live</a>
-            <a class="btn small ghost" href="#">Code</a>
+            <a class="btn small" href="#" aria-disabled="true">Live</a>
+            <a class="btn small ghost" href="#" aria-disabled="true">Code</a>
           </div>
         </article>
         <article class="tile">
-          <h3>Project Two</h3>
-          <p>Another nice thing you built.</p>
-          <div class="tags"><span>JS</span><span>API</span></div>
+          <h3>Code in Place — Stanford</h3>
+          <p>
+            Built Python programs using loops, functions, and data structures to solve small data tasks; 
+            collaborated remotely with peers and mentors; iterated via feedback.
+          </p>
+          <div class="tags"><span>Python</span></div>
           <div class="actions">
-            <a class="btn small" href="#">Live</a>
-            <a class="btn small ghost" href="#">Code</a>
-          </div>
-        </article>
-        <article class="tile">
-          <h3>Project Three</h3>
-          <p>A third example. Screenshots look great here.</p>
-          <div class="tags"><span>Design</span></div>
-          <div class="actions">
-            <a class="btn small" href="#">Live</a>
-            <a class="btn small ghost" href="#">Code</a>
+            <a class="btn small" href="#" aria-disabled="true">Demo</a>
+            <a class="btn small ghost" href="#" aria-disabled="true">Code</a>
           </div>
         </article>
       </div>
     </section>
 
+    <!-- EXPERIENCE / LEADERSHIP -->
+    <section id="experience" class="wrap">
+      <h2>Experience & Leadership</h2>
+      <div class="grid">
+        <article class="tile">
+          <h3>Project Manager Trainee — BEM Fasilkom UI</h3>
+          <p>Sep 2024 – Present, Depok, Indonesia.</p>
+          <p>Overseeing digital projects: managing goals, timelines, scope; coordinating teams; tracking progress.</p>
+        </article>
+        <article class="tile">
+          <h3>International Leadership in Action Summit (ILiAS)</h3>
+          <p>May – Sep 2024, Singapore & Malaysia.</p>
+          <p>Worked with youth leaders on SDG-aligned social startups (education, health, environment, economy);
+             workshops & field visits at IIUM and NUS.</p>
+        </article>
+        <article class="tile">
+          <h3>Head of STEM Division — SMAN 8 Jakarta</h3>
+          <p>Aug 2022 – Sep 2023, Jakarta.</p>
+          <p>1:1 tutoring for 46 students; mentored 21 research teams to qualify at national level across disciplines.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
     <section id="contact" class="wrap">
       <h2>Contact</h2>
-      <p>Best way to reach me: <a href="mailto:you@example.com">you@example.com</a></p>
-      <ul class="social">
-        <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter</a></li>
+      <ul class="contact-list">
+        <li>📍 East Jakarta</li>
+        <li>📧 <a href="mailto:rivaldy.rivly@gmail.com">rivaldy.rivly@gmail.com</a></li>
+        <li>📱 <a href="tel:+6288809671923">+62 888 0967 1923</a></li>
+        <li>🔗 <a href="https://www.linkedin.com/in/rivaldy-r-80ba0b236" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li>🎓 Certificates: Foundations of Project Management (Coursera); Foundations: Data, Data, Everywhere (Coursera)</li>
       </ul>
     </section>
   </main>
 
   <footer class="wrap foot">
-    <p>© <span id="year"></span> Your Name • Built with ❤️ on GitHub Pages</p>
+    <p>© <span id="year"></span> Rivaldy Putra Rivly • Built with ❤️ on GitHub Pages</p>
   </footer>
 
   <script src="script.js"></script>
