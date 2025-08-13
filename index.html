@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal website & portfolio hosted free on GitHub Pages." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- decorative background -->
+  <div class="bg">
+    <div class="blob a"></div>
+    <div class="blob b"></div>
+  </div>
+
+  <header class="wrap header">
+    <a class="brand" href="#"><span class="dot"></span>YourName</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" aria-label="Toggle theme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <p class="eyebrow">Hi! 👋</p>
+        <h1>I build <span class="accent">delightful websites</span>.</h1>
+        <p class="lead">I’m <strong>Your Name</strong>. I love turning ideas into fast, responsive, accessible web experiences.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See projects</a>
+          <a class="btn ghost" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Currently</h3>
+        <p>Learning JavaScript & UI design. Open to small web projects.</p>
+      </div>
+    </section>
+
+    <section id="about" class="wrap two">
+      <div>
+        <h2>About</h2>
+        <p>Write your short bio here. Mention what you do, what you like, and what you’re looking for.</p>
+        <ul class="bullets">
+          <li>🛠 Tools: HTML, CSS, JavaScript</li>
+          <li>🎯 Interests: Frontend, Design, Open Source</li>
+          <li>🌍 Location: Your City</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Skills</h3>
+        <div class="chips">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git</span><span>Figma</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="wrap">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="tile">
+          <h3>Project One</h3>
+          <p>What it does and why it’s cool—in one sentence.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+          <div class="actions">
+            <a class="btn small" href="#">Live</a>
+            <a class="btn small ghost" href="#">Code</a>
+          </div>
+        </article>
+        <article class="tile">
+          <h3>Project Two</h3>
+          <p>Another nice thing you built.</p>
+          <div class="tags"><span>JS</span><span>API</span></div>
+          <div class="actions">
+            <a class="btn small" href="#">Live</a>
+            <a class="btn small ghost" href="#">Code</a>
+          </div>
+        </article>
+        <article class="tile">
+          <h3>Project Three</h3>
+          <p>A third example. Screenshots look great here.</p>
+          <div class="tags"><span>Design</span></div>
+          <div class="actions">
+            <a class="btn small" href="#">Live</a>
+            <a class="btn small ghost" href="#">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap">
+      <h2>Contact</h2>
+      <p>Best way to reach me: <a href="mailto:you@example.com">you@example.com</a></p>
+      <ul class="social">
+        <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>© <span id="year"></span> Your Name • Built with ❤️ on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
