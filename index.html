@@ -36,28 +36,63 @@
   </header>
 
   <main>
-    <!-- HERO -->
-    <section class="wrap hero">
-      <div>
-        <p class="eyebrow">Hi! 👋</p>
-        <h1> Hi ini <span class="accent"> Rivaldy , Ini </span> website gw :).</h1>
-        <p class="lead">
-          I’m <strong>Rivaldy Putra Rivly</strong>, an Information Systems student at Universitas Indonesia.
-          I love turning ideas into fast, accessible web experiences.
-        </p>
-        <div class="cta">
-          <a class="btn primary" href="#projects">See projects</a>
-          <a class="btn ghost" href="#contact">Contact me</a>
-        </div>
-        <ul class="trust">
-          <li>⚡ Fast</li><li>📱 Responsive</li><li>♿ Accessible</li><li>🧩 Reusable</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Currently</h3>
-        <p>Project Manager trainee @ BEM Fasilkom UI (Bismit) — managing timelines, scope, and progress for web & business dev.</p>
-      </div>
-    </section>
+<!-- ===== Alive Split Hero ===== -->
+<section class="alive-hero">
+  <!-- left: text + search -->
+  <div class="alive-left wrap">
+    <p class="alive-kicker">Berlin Tauentstrasse</p>
+    <h1 class="alive-title">Welcome Home</h1>
+
+    <!-- search bar -->
+    <form class="alive-search" action="#" aria-label="Find a suite">
+      <label class="alive-field">
+        <span class="alive-label">Location</span>
+        <select aria-label="Location">
+          <option selected>Jakarta</option>
+          <option>Depok</option>
+          <option>Bandung</option>
+          <option>Singapore</option>
+        </select>
+      </label>
+
+      <label class="alive-field">
+        <span class="alive-label">Check In</span>
+        <input type="date" aria-label="Check in">
+      </label>
+
+      <label class="alive-field">
+        <span class="alive-label">Check Out</span>
+        <input type="date" aria-label="Check out">
+      </label>
+
+      <label class="alive-field">
+        <span class="alive-label">Guests</span>
+        <select aria-label="Guests">
+          <option selected>1 guest</option>
+          <option>2 guests</option>
+          <option>3 guests</option>
+          <option>4 guests</option>
+        </select>
+      </label>
+
+      <button class="alive-cta" type="submit">Search Suite</button>
+    </form>
+
+    <p class="alive-sub">
+      Introducing an entirely new way to stay in your favorite neighborhoods around the world.
+    </p>
+
+    <button class="alive-play" type="button" aria-label="Play showreel">
+      <span class="alive-play-icon">▶</span> Play showreel
+    </button>
+  </div>
+
+  <!-- right: image panel -->
+  <div class="alive-right" role="img" aria-label="Bright minimal living room"></div>
+
+  <!-- subtle animated dots -->
+  <div class="alive-dots"></div>
+</section>
 
     <!-- ABOUT -->
     <section id="about" class="wrap two">
